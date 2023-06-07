@@ -1,0 +1,33 @@
+@model Movie;
+
+@{
+    ViewData["Title"] = "Добавить кино";
+}
+
+<div class="row">
+    <div class="col-6">
+        <form asp-controller="Movie" asp-action="Store" method="post">
+            <div class="mb-3">
+                <label for="Name" class="form-label">Kino nomi: </label>
+                <input type="text" name="Name" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="Year" class="form-label">Nechinchi yil: </label>
+                <input type="number" name="Year" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="Country">Davlat:</label>
+                <select name="Country" id="Country" class="form-select">
+                    <option value="uzb">Uzbeksitan</option>
+                    <option value="usa">USA</option>
+                    <option value="rus">Russia</option>
+                    <option selected value="eng">England</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-success">Добавить</button>
+        </form>
+    </div>
+    @* <div class="col-6">
+        <img src="~/images/boat.jpg" alt="test">
+    </div> *@
+</div>

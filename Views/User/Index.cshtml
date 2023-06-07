@@ -1,0 +1,41 @@
+@model List<User>
+
+<table class="table">
+    <tr>
+        <th>T/r</th>
+        <th>ID</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+    </tr>
+    @* @foreach (var odam in Model)
+    {
+        <tr>
+            <td>@odam.Id</td>
+            <td>@odam.FirstName</td>
+            <td>@odam.LastName</td>
+            <td>@odam.Email</td>
+            <td>
+                <a href="@odam.Link">
+                    <button class="btn btn-info">Information</button>
+                </a>
+            </td>
+        </tr>
+    } *@
+
+    @for (int i = 1; i <= Model.Count(); i++)
+    {
+        <tr>
+            <td>@i</td>
+            <td>@Model[i-1].Id</td>
+            <td>@Model[i-1].FirstName</td>
+            <td>@Model[i-1].LastName</td>
+            <td>@Model[i-1].Email</td>
+            <td>
+                <a href="@Model[i-1].Link">
+                    <button class="btn btn-info">Information</button>
+                </a>
+            </td>
+        </tr>
+    }
+</table>
