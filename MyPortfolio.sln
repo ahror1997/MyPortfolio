@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPortfolio", "MyPortfolio\MyPortfolio\MyPortfolio.csproj", "{479F6A69-5BD3-4855-B078-FEB06EF921E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPortfolio.Client", "MyPortfolio\MyPortfolio.Client\MyPortfolio.Client.csproj", "{34692944-EC11-48FE-A933-24413443582D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{479F6A69-5BD3-4855-B078-FEB06EF921E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479F6A69-5BD3-4855-B078-FEB06EF921E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479F6A69-5BD3-4855-B078-FEB06EF921E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479F6A69-5BD3-4855-B078-FEB06EF921E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34692944-EC11-48FE-A933-24413443582D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34692944-EC11-48FE-A933-24413443582D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34692944-EC11-48FE-A933-24413443582D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34692944-EC11-48FE-A933-24413443582D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {842284DC-7722-488D-9348-FFFAC79378DC}
+	EndGlobalSection
+EndGlobal
